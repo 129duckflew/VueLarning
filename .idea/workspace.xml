@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55985725-6b9a-47f1-9d61-07e6d673ce98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vuelearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Axios基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Axios拦截器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Es6语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue生命周期.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue组件事件传递并且实现从子组件传递数据到父组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue组件化开发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue组件的插槽Slot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/methods方法和computed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前后端连调案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/备忘录小案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/按键修饰符和事件修饰符号.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7个vue入门- v-bind .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第8个vue入门- v- for v-model .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第一个vue入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三个vue入门-v-html 和v-text的区别.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二个vue入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第五个vue入门-v-on 传递参数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六个vue入门-v-if v-show .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第四个vue入门-v-on.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/购物车案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/路由的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +30,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mycode\vueProject\vuelearning\html" />
+      <recent name="F:\mycode\vueProject\vueLearning1\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mycode\vueProject\vuelearning" />
       <recent name="F:\mycode\vueProject\vueLearning1\js" />
       <recent name="F:\mycode\vueProject\vueLearning1" />
       <recent name="F:\mycode\vueProject\vueLearning1\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\mycode\vueProject\vueLearning1\js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.路由的基本使用.html">
@@ -117,13 +89,35 @@
       <workItem from="1626877186443" duration="2648000" />
       <workItem from="1626963474874" duration="20674000" />
       <workItem from="1627078505248" duration="403000" />
+      <workItem from="1627078919086" duration="505000" />
+      <workItem from="1627079426698" duration="243000" />
     </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1627079035263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627079035263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2484" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627079140311">
+      <screen x="1920" y="1" width="1645" height="960" />
+    </state>
+    <state x="2484" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1627079140311" />
+    <state x="2352" y="75" key="CommitChangelistDialog2" timestamp="1627079032815">
+      <screen x="1920" y="1" width="1645" height="960" />
+    </state>
+    <state x="2352" y="75" key="CommitChangelistDialog2/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1627079032815" />
     <state width="1611" height="254" key="GridCell.Tab.0.bottom" timestamp="1626724969752">
       <screen x="0" y="0" width="1632" height="960" />
     </state>
