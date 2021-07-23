@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+    <script src="../js/axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+
+</div>
+</body>
+<script>
+
+
+    let instance = axios.create(
+        {
+            baseURL:"http://localhost:8080/",
+            timeout:5000
+        }
+    );
+    instance.interceptors.request.use(function (config) {
+        console.log(config.url);
+        console.log(config);
+        return config
+    })
+
+    instance.interceptors.response.use(function (response) {
+
+        console.log(response.data);
+        return response;
+
+    })
+
+    instance.get("/books")
+    .then(function (res) {
+    });
+    // axios.post("http://localhost:8080/books/",
+    // {id:4, name:"浪潮之巅", author:"吴军"}
+    // )
+    // .then(function (response) {
+    //     console.log(response);
+    // }).catch(function (error ) {
+    // console.log(error);
+    // })
+    // axios.put("http://localhost:8080/books/",{
+    //     "author": "霍金",
+    //     "id": 34,
+    //     "name": "宇宙简史",
+    // }, {
+    //     headers:{
+    //     }
+    // })
+    // axios.get("http://localhost:8080/books/")
+    //     .then(function (response) {
+    //         console.log(response.data);
+    //     }).catch(function (error ) {
+    //     console.log(error);
+    // })
+</script>
+</html>

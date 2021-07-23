@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <table border="1" >
+        <tr>
+            <th>编号</th>
+            <th>名称</th>
+            <th>价格</th>
+            <th>购买数量</th>
+            <th>小计</th>
+        </tr>
+        <tr v-for="item,index in items" v-if="item.count>0">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>
+                <input type="button" value="-1" @click="countMinus(index)">
+                {{item.count}}
+                <input type="button" value="+1" @click="countPlus(index)">
+            </td>
+            <td>{{(item.count*item.price).toFixed(2)}}</td>
+        </tr>
+    </table>
+    <h3>{{totalPrice}}</h3>
+
+</div>
+</body>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            items:[
+                {
+                    id:1,
+                    name: "HuaWei Mate40",
+                    price: 4999.99,
+                    count: 1,
+                }
+            ]
+        },
+        methods:{
+            countMinus(index)
+            {
+                if (this.items[index].count>0)this.items[index].count--;
+            },
+            countPlus(index)
+            {
+                this.items[index].count++;
+            },
+        },
+        computed: {
+                totalPrice()
+                {
+                    let totalPrice=0;
+                    this.items.forEach(item =>totalPrice+=item.count*item.price)
+                    return totalPrice.toFixed(2);
+                }
+            }
+    })
+</script>
+</html>

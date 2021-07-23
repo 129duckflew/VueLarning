@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body >
+    <div id="app1">
+<!--        <div v-for="value,key,index in person">-->
+<!--            index:{{index}}<br>-->
+<!--            key :{{key}}<br>-->
+<!--            value :{{value}}<br>-->
+<!--        </div>-->
+        <ul>
+            <li v-for="(item,index) in schools">
+                {{index}}------->{{item}}
+            </li>
+        </ul>
+        <table border="1" width="100%">
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>工资</th>
+                <th>简介</th>
+                <th>操作</th>
+            </tr>
+            <tr v-for="user in persons" :key="user.id">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.age}}</td>
+                <td>{{user.salary}}</td>
+                <td>{{user.intro}}</td>
+                <td>{{user.operation}}</td>
+            </tr>
+        </table>
+        <form >
+          用户名  <input type="text" v-model="user.username"> <br>
+          密码    <input type="text" v-model="user.password">  <br>
+          邮箱    <input type="text" v-model="user.email"><br>
+          QQ     <input type="text" v-model="user.qq"><br>
+            <a @click="printInfo">提交</a>
+        </form>
+    </div>
+</body>
+<script >
+    let app1 = new Vue({
+        el: "#app1",
+        data: {
+            msg:"小陈",
+            count:1,
+            visible: true,
+            person:{
+                age:20,
+                name:"fuck",
+                major:"ssss"
+            },
+            persons:[
+                {id:1,name:"小红",age:19,salary:13000,intro:"我是小红",operation:"收钱"},
+                {id:2,name:"小华",age:19,salary:13000,intro:"我是小华",operation:"打架"},
+                {id:3,name:"小红",age:19,salary:13000,intro:"我是小红",operation:"收钱"},
+                {id:4,name:"小红",age:19,salary:13000,intro:"我是小红",operation:"混日子"},
+                {id:5,name:"小红",age:19,salary:13000,intro:"我是小红",operation:"收钱"}
+            ],
+            pic:{
+                src:"https://cdn.jsdelivr.net/gh/129duckflew/GitHubImages/img/wallpapers20210713204742.png"
+            },
+            content:"<a href=\"www.baidu.com\">点我查看内容</a>",
+            schools:[
+                "武汉科技大学",
+                "华中科技大学",
+                "中南大学",
+                "杭州电子科技大学"
+            ],
+            user:{},
+        },
+
+        methods: {
+            changeAge: function (count, msg) {
+                this.count += count;
+                this.msg += msg;
+            },
+            changePicAddr(picAddr)
+            {
+                this.pic.src=picAddr;
+            },
+            printInfo()
+            {
+                console.log(this.user)
+            }
+        }
+    });
+</script>
+</html>

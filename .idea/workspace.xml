@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55985725-6b9a-47f1-9d61-07e6d673ce98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vuelearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Axios基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Axios拦截器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Es6语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue生命周期.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue组件事件传递并且实现从子组件传递数据到父组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue组件化开发.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue组件的插槽Slot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods方法和computed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前后端连调案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备忘录小案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/按键修饰符和事件修饰符号.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第7个vue入门- v-bind .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8个vue入门- v- for v-model .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第一个vue入门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三个vue入门-v-html 和v-text的区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第二个vue入门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第五个vue入门-v-on 传递参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六个vue入门-v-if v-show .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第四个vue入门-v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/购物车案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/路由的基本使用.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vSMX42sWBFhraELzyi1EVwKXEc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mycode\vueProject\vueLearning1\js" />
+      <recent name="F:\mycode\vueProject\vueLearning1" />
+      <recent name="F:\mycode\vueProject\vueLearning1\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mycode\vueProject\vueLearning1\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.路由的基本使用.html">
+    <configuration name="Vue组件的插槽Slot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/Vue组件的插槽Slot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Vue组件事件传递并且实现从子组件传递数据到父组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/Vue组件事件传递并且实现从子组件传递数据到父组件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Vue组件化开发.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/Vue组件化开发.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="路由的基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/路由的基本使用.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="备忘录小案例.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/备忘录小案例.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="按键修饰符和事件修饰符号.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueLearning1/按键修饰符和事件修饰符号.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.路由的基本使用.html" />
+        <item itemvalue="JavaScript Debug.Vue组件的插槽Slot.html" />
+        <item itemvalue="JavaScript Debug.Vue组件事件传递并且实现从子组件传递数据到父组件.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55985725-6b9a-47f1-9d61-07e6d673ce98" name="Default Changelist" comment="" />
+      <created>1626551072424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626551072424</updated>
+      <workItem from="1626551073675" duration="4144000" />
+      <workItem from="1626597131550" duration="7287000" />
+      <workItem from="1626629897534" duration="6974000" />
+      <workItem from="1626686968712" duration="12286000" />
+      <workItem from="1626877186443" duration="2648000" />
+      <workItem from="1626963474874" duration="20674000" />
+      <workItem from="1627078505248" duration="403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1611" height="254" key="GridCell.Tab.0.bottom" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1623" height="316" key="GridCell.Tab.0.bottom/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626724220005" />
+    <state width="1611" height="254" key="GridCell.Tab.0.bottom/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.0.center" timestamp="1626724969751">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1623" height="316" key="GridCell.Tab.0.center/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626724220005" />
+    <state width="1611" height="254" key="GridCell.Tab.0.center/0.0.1632.960@0.0.1632.960" timestamp="1626724969751" />
+    <state width="1611" height="254" key="GridCell.Tab.0.left" timestamp="1626724969750">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1623" height="316" key="GridCell.Tab.0.left/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626724220005" />
+    <state width="1611" height="254" key="GridCell.Tab.0.left/0.0.1632.960@0.0.1632.960" timestamp="1626724969750" />
+    <state width="1611" height="254" key="GridCell.Tab.0.right" timestamp="1626724969751">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1623" height="316" key="GridCell.Tab.0.right/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626724220005" />
+    <state width="1611" height="254" key="GridCell.Tab.0.right/0.0.1632.960@0.0.1632.960" timestamp="1626724969751" />
+    <state width="1611" height="254" key="GridCell.Tab.1.bottom" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.1.bottom/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.1.center" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.1.center/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.1.left" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.1.left/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.1.right" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.1.right/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.2.bottom" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.2.bottom/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.2.center" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.2.center/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.2.left" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.2.left/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.2.right" timestamp="1626724969752">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.2.right/0.0.1632.960@0.0.1632.960" timestamp="1626724969752" />
+    <state width="1611" height="254" key="GridCell.Tab.3.bottom" timestamp="1626724969753">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.3.bottom/0.0.1632.960@0.0.1632.960" timestamp="1626724969753" />
+    <state width="1611" height="254" key="GridCell.Tab.3.center" timestamp="1626724969753">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.3.center/0.0.1632.960@0.0.1632.960" timestamp="1626724969753" />
+    <state width="1611" height="254" key="GridCell.Tab.3.left" timestamp="1626724969753">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.3.left/0.0.1632.960@0.0.1632.960" timestamp="1626724969753" />
+    <state width="1611" height="254" key="GridCell.Tab.3.right" timestamp="1626724969753">
+      <screen x="0" y="0" width="1632" height="960" />
+    </state>
+    <state width="1611" height="254" key="GridCell.Tab.3.right/0.0.1632.960@0.0.1632.960" timestamp="1626724969753" />
+    <state x="2203" y="88" key="SettingsEditor" timestamp="1626601527621">
+      <screen x="1920" y="1" width="1645" height="960" />
+    </state>
+    <state x="2203" y="88" key="SettingsEditor/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626601527621" />
+    <state x="2663" y="228" key="run.anything.popup" timestamp="1627075371917">
+      <screen x="1920" y="1" width="1645" height="960" />
+    </state>
+    <state x="660" y="204" key="run.anything.popup/0.0.1462.864/1920.1.1645.960@0.0.1462.864" timestamp="1627039514579" />
+    <state x="2663" y="228" key="run.anything.popup/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1627075371917" />
+    <state x="738" y="227" key="run.anything.popup/0.0.1634.960@0.0.1634.960" timestamp="1626636041808" />
+    <state x="2405" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1626603573575">
+      <screen x="1920" y="1" width="1645" height="960" />
+    </state>
+    <state x="2405" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1462.864/1920.1.1645.960@1920.1.1645.960" timestamp="1626603573575" />
+  </component>
+</project>

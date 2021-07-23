@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body >
+    <div id="app1">
+        <div>
+            <img v-bind:src="pic.src" width="900px">
+<!--            下面的是简化写法-->
+            <img :src="pic.src" width="900px">
+        </div>
+        <button @click="changePic">按钮</button>
+    </div>
+</body>
+<script >
+    let app1 = new Vue({
+        el: "#app1",
+        data: {
+            msg:"小陈",
+            count:1,
+            visible: true,
+            pic:{
+                src:"https://cdn.jsdelivr.net/gh/129duckflew/GitHubImages/img/wallpapers20210713204742.png"
+            },
+            content:"<a href=\"www.baidu.com\">点我查看内容</a>",
+            },
+        methods: {
+            changeAge: function (count, msg) {
+                this.count += count;
+                this.msg += msg;
+            },
+            changePicAddr(picAddr)
+            {
+                this.pic.src=picAddr;
+            }
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body id="body">
+    <div id="app1">
+        <h1>{{msg}}</h1>
+        <h1>{{person.name}}</h1>
+    </div>
+</body>
+<script >
+    let app1 = new Vue({
+        el: "#app1",
+        data: {
+            msg:"小陈",
+            count:1,
+            person:{
+                name:"fuck"
+            }
+        }
+    });
+    app1.person.name=1;
+</script>
+</html>

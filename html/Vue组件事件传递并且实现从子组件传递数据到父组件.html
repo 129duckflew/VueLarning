@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body id="body">
+    <div id="app1">
+<!--        下面是使用组件-->
+        <add @aa="parentMethod"></add>
+    </div>
+</body>
+
+</html>
+
+
+
+
+<script >
+    //定义一个局部组件
+    const add={
+        template:`
+        <div>
+        <button @click="useParentMethod(childData)">点我触发父组件中的一个事件</button>
+        </div>
+        `,
+        data()
+        {
+            return {
+                childData:'我是子组件数据 借助事件传递进行传输'
+            }
+        },
+        methods:{
+            useParentMethod(childData)
+            {
+                this.$emit('aa',childData)
+            }
+        },
+        computed:{
+            counterSqrt()
+            {
+                return this.counter*this.counter;
+            }
+        },
+        props:[]
+    };
+    let app1 = new Vue({
+        el: "#app1",
+        data: {
+        },
+        components:{
+            add
+        },
+        methods: {
+            parentMethod(childData)
+            {
+                console.log("我是父组件中的事件 在子组件通过this.$emit(在子组件上面定义的事件名) 调用")
+                console.log(childData)
+            }
+        }
+    });
+</script>

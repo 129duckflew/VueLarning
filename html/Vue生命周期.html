@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1 id="h1">{{msg}}</h1>
+    <button @click="msg='修改'">修改MSG</button>
+</div>
+</body>
+<script>
+   let app= new Vue({
+        el:'#app',
+        data:{
+            msg:"生命周期"
+        },
+        methods:{
+
+        },
+       computed:{
+
+       },
+       beforeCreate()
+       {
+           console.log("beforeCreated")
+       },
+       create()
+       {
+           console.log("创建",this.msg)
+       },
+       beforeMount() {
+           console.log("beforemount", this.msg,document.getElementById("h1").innerText)
+       },
+       mounted() {
+           console.log("mounted", this.msg,document.getElementById("h1").innerText)
+        },
+       beforeUpdate()
+       {
+           console.log("beforeUpdate",this.msg,document.getElementById("h1").innerText)
+       },
+       updated()
+       {
+           console.log("update",this.msg,document.getElementById("h1").innerText)
+       },
+       beforeDestroy()
+       {
+           console.log("准备销毁",this.msg,document.getElementById("h1").innerText)
+       },
+       destroy()
+       {
+           console.log("清理完成")
+       }
+    })
+</script>
+</html>

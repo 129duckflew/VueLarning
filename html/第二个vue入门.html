@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body >
+    <div id="app1">
+        <h1> {{schools[1]}}</h1>
+    </div>
+</body>
+<script >
+    let app1 = new Vue({
+        el: "#app1",
+        data: {
+            msg:"小陈",
+            count:1,
+            person:{
+                name:"fuck",
+                id:2
+            },
+            schools:[
+                "武汉科技大学",
+                "华中科技大学",
+                "中南大学",
+                "杭州电子科技大学"
+            ]
+        }
+    });
+</script>
+</html>
