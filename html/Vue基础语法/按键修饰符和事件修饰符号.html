@@ -8,7 +8,7 @@
             主要有四种 .stop  .self .prevent .once
     stop 是终止传递的事件  由于子标签的事件会传递到父标签  阻止这种情况就可以用.stop
     self  就是只接受自身的事件不接受传递的事件
-    
+    .prevent 使原来的组件的自身的事件失效  例如a标签 加入@click.prevent 让其不产生页面跳转
 </head>
 <body>
 <div id="app">
