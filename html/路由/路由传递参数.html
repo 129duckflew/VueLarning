@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>路由的基本使用</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 <!--    引入 vue route 依赖-->
-    <script src="../js/vue-router.js"></script>
+    <script src="../../js/vue-router.js"></script>
 </head>
 <body id="body">
     <div id="app1">
-        <a href="#/login">用户登录</a>
-        <a href="#/register">用户注册</a>
 
-        <router-link to="/login">用户登录</router-link>
-        <router-link to="/register">用户注册</router-link>
+        <a href="#/login?username=duckflew">用户登录</a>
+        <a href="#/register/21/xiaochen">用户注册</a>
 
 <!--        推荐使用命名路由-->
-        <router-link :to="{name:'Login'}">用户登录</router-link>
-        <router-link :to="{name:'Register'}">用户注册</router-link>
+        <router-link :to="{name:'Register',params:{username:'duckflew',password:'znzedushangzhe'}}">用户注册 RouterLink</router-link>
+<!--        <router-link :to="{name:'Register'}">用户注册</router-link>-->
 
-<!--        js代码切换路由-->
-        <button @click="login">用户登录</button>
-        <button @click="register">用户注册</button>
         <router-view></router-view>
     </div>
 </body>
@@ -32,7 +27,12 @@
           <div>
          <h2>用户登录组件</h2>
         </div>
-        `
+        `,
+        created()
+        {
+            console.log(this.$route.query.username);
+            console.log(this.$route);
+        }
     };
     const register={
         template:
@@ -41,6 +41,9 @@
          <h2>用户注册组件</h2>
         </div>
         `
+        ,created() {
+            console.log(this.$route.params)
+        }
     };
     const notFound={
         template:
@@ -63,7 +66,7 @@
                 name:'Login'
             },
             {
-                path:'/register',
+                path:'/register/:username/:password',
                 component:register,
                 name:'Register'
             },
