@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body >
     <div id="app1">
-        <h1> {{schools[1]}}</h1>
+        <h1>{{count}}</h1>
+        <button v-on:click="change" v-on:mouseover="mouseover">点击</button>
     </div>
 </body>
 <script >
@@ -25,7 +26,16 @@
                 "华中科技大学",
                 "中南大学",
                 "杭州电子科技大学"
-            ]
+            ],
+            content:"<a href=\"www.baidu.com\">点我查看内容</a>",
+            },
+        methods: {
+            change: function () {
+                this.count++
+            },
+            mouseover: function () {
+                this.count--
+            }
         }
     });
 </script>

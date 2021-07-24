@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body >
     <div id="app1">
         <h1>{{count}}</h1>
-        <button v-on:click="change" v-on:mouseover="mouseover">点击</button>
+        <h1>{{msg}}</h1>
+        <button v-on:click="changeAge(10,'hello')" >点击</button>
     </div>
 </body>
 <script >
@@ -30,11 +31,12 @@
             content:"<a href=\"www.baidu.com\">点我查看内容</a>",
             },
         methods: {
-            change: function () {
-                this.count++
+            changeAge: function (count,msg) {
+                this.count+=count;
+                this.msg+=msg;
             },
-            mouseover: function () {
-                this.count--
+            thisisafun(){
+
             }
         }
     });

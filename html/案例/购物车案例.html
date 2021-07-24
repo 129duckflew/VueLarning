@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body>
 <div id="app">
@@ -27,7 +27,7 @@
             <td>{{(item.count*item.price).toFixed(2)}}</td>
         </tr>
     </table>
-    <h3>{{totalPrice}}</h3>
+    <h3>{{totalPrice()}}</h3>
 
 </div>
 </body>
@@ -53,15 +53,13 @@
             {
                 this.items[index].count++;
             },
-        },
-        computed: {
-                totalPrice()
-                {
-                    let totalPrice=0;
-                    this.items.forEach(item =>totalPrice+=item.count*item.price)
-                    return totalPrice.toFixed(2);
-                }
+            totalPrice()
+            {
+                let totalPrice=0;
+                this.items.forEach(item =>totalPrice+=item.count*item.price)
+                return totalPrice;
             }
+        }
     })
 </script>
 </html>

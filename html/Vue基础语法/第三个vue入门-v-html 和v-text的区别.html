@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body >
-    <div id="app1">
-        <h1>{{count}}</h1>
-        <h1>{{msg}}</h1>
-        <button v-on:click="changeAge(10,'hello')" >点击</button>
-    </div>
+<div id="app1" >
+    <h1 v-text="content"></h1>
+    <h1 v-html="content"></h1>
+</div>
 </body>
 <script >
     let app1 = new Vue({
@@ -28,16 +27,7 @@
                 "中南大学",
                 "杭州电子科技大学"
             ],
-            content:"<a href=\"www.baidu.com\">点我查看内容</a>",
-            },
-        methods: {
-            changeAge: function (count,msg) {
-                this.count+=count;
-                this.msg+=msg;
-            },
-            thisisafun(){
-
-            }
+            content:"<a href=\"www.baidu.com\">点我查看内容</a>"
         }
     });
 </script>

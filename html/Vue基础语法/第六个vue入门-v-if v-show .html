@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body >
     <div id="app1">
-        <div>
-            <img v-bind:src="pic.src" width="900px">
-<!--            下面的是简化写法-->
-            <img :src="pic.src" width="900px">
-        </div>
-        <button @click="changePic">按钮</button>
+        <h1 v-show="count==10">{{msg}}</h1>
+        <div style="width: 200px; height: 100px ; background-color: red"></div>
+        <button @click="changeAge(1,'hello')"> 点击加1   </button>
     </div>
 </body>
 <script >
@@ -21,20 +18,23 @@
         data: {
             msg:"小陈",
             count:1,
-            visible: true,
-            pic:{
-                src:"https://cdn.jsdelivr.net/gh/129duckflew/GitHubImages/img/wallpapers20210713204742.png"
+            person:{
+                name:"fuck",
+                id:2
             },
+            schools:[
+                "武汉科技大学",
+                "华中科技大学",
+                "中南大学",
+                "杭州电子科技大学"
+            ],
+            visible: true,
             content:"<a href=\"www.baidu.com\">点我查看内容</a>",
             },
         methods: {
             changeAge: function (count, msg) {
                 this.count += count;
                 this.msg += msg;
-            },
-            changePicAddr(picAddr)
-            {
-                this.pic.src=picAddr;
             }
         }
     });
